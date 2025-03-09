@@ -7,3 +7,4 @@ def call(id,project,tag){
        docker push ${env.dockerHubUser}/${project}:${tag} 
       """
 }
+}
