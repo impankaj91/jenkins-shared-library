@@ -3,6 +3,6 @@ def call() {
                     -o './'
                     -s './'
                     -f 'ALL' 
-                    --prettyPrint --no-update''', odcInstallation: 'OWASP'
+                    --prettyPrint''', odcInstallation: 'OWASP'
     dependencyCheckPublisher pattern: 'dependency-check-report.xml'
 }
